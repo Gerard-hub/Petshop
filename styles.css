@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+
+.navHeader{
+    display: flex;
+}
+
+.navHeader>li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-family: ;
+}
+
+li>img{
+    object-fit: cover;
+
+}
+
+.navegador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F0A83E
+}
+
+.fondo{
+    background-image: url('/img/imagen_fondo.jpg');
+}
